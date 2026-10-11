@@ -1,0 +1,182 @@
+{
+  "name": "Austrian Sky",
+  "flights": [
+    {
+      "flightNumber": "OS101",
+      "departureAirport": {
+        "code": "VIE",
+        "city": "Vienna",
+        "country": "Austria"
+      },
+      "arrivalAirport": {
+        "code": "LHR",
+        "city": "London",
+        "country": "United Kingdom"
+      },
+      "departure": "15.09.2026 08:30",
+      "aircraft": {
+        "registration": "OE-LXA",
+        "type": "Airbus A320",
+        "seats": 180
+      },
+      "crew": [
+        {
+          "id": 1,
+          "firstname": "Anna",
+          "lastname": "Huber",
+          "role": "Pilot"
+        },
+        {
+          "id": 2,
+          "firstname": "Michael",
+          "lastname": "Gruber",
+          "role": "Flight Attendant"
+        }
+      ],
+      "bookings": [
+        {
+          "bookingNumber": "B1001",
+          "passenger": {
+            "id": 101,
+            "firstname": "Julia",
+            "lastname": "Mayer"
+          },
+          "seat": "12A",
+          "price": 220.0,
+          "status": "CONFIRMED",
+          "additionalCosts": "Baggage=35.00; Meal=12.50"
+        },
+        {
+          "bookingNumber": "B1002",
+          "passenger": {
+            "id": 102,
+            "firstname": "Thomas",
+            "lastname": "Berger"
+          },
+          "seat": "14C",
+          "price": 195.0,
+          "status": "CONFIRMED",
+          "additionalCosts": "Priority=9.90"
+        },
+        {
+          "bookingNumber": "B1003",
+          "passenger": {
+            "id": 103,
+            "firstname": "Sarah",
+            "lastname": "Hofer"
+          },
+          "seat": "15B",
+          "price": 205.0,
+          "status": "CANCELLED",
+          "additionalCosts": ""
+        }
+      ]
+    },
+    {
+      "flightNumber": "OS202",
+      "departureAirport": {
+        "code": "VIE",
+        "city": "Vienna",
+        "country": "Austria"
+      },
+      "arrivalAirport": {
+        "code": "FCO",
+        "city": "Rome",
+        "country": "Italy"
+      },
+      "departure": "16.09.2026 13:15",
+      "aircraft": {
+        "registration": "OE-LXB",
+        "type": "Airbus A321",
+        "seats": 200
+      },
+      "crew": [
+        {
+          "id": 1,
+          "firstname": "Anna",
+          "lastname": "Huber",
+          "role": "Pilot"
+        },
+        {
+          "id": 3,
+          "firstname": "Daniel",
+          "lastname": "Wagner",
+          "role": "Flight Attendant"
+        }
+      ],
+      "bookings": [
+        {
+          "bookingNumber": "B2001",
+          "passenger": {
+            "id": 101,
+            "firstname": "Julia",
+            "lastname": "Mayer"
+          },
+          "seat": "8F",
+          "price": 180.0,
+          "status": "CONFIRMED",
+          "additionalCosts": "Baggage=35.00; Priority=9.90"
+        },
+        {
+          "bookingNumber": "B2002",
+          "passenger": {
+            "id": 104,
+            "firstname": "Lukas",
+            "lastname": "Steiner"
+          },
+          "seat": "9D",
+          "price": 175.0,
+          "status": "CONFIRMED",
+          "additionalCosts": "Meal=12.50"
+        }
+      ]
+    },
+    {
+      "flightNumber": "OS303",
+      "departureAirport": {
+        "code": "BER",
+        "city": "Berlin",
+        "country": "Germany"
+      },
+      "arrivalAirport": {
+        "code": "VIE",
+        "city": "Vienna",
+        "country": "Austria"
+      },
+      "departure": "17.09.2026 18:45",
+      "aircraft": {
+        "registration": "OE-LXC",
+        "type": "Embraer E195",
+        "seats": 120
+      },
+      "crew": [
+        {
+          "id": 4,
+          "firstname": "Martin",
+          "lastname": "Leitner",
+          "role": "Pilot"
+        },
+        {
+          "id": 2,
+          "firstname": "Michael",
+          "lastname": "Gruber",
+          "role": "Flight Attendant"
+        }
+      ],
+      "bookings": [
+        {
+          "bookingNumber": "B3001",
+          "passenger": {
+            "id": 102,
+            "firstname": "Thomas",
+            "lastname": "Berger"
+          },
+          "seat": "4A",
+          "price": 155.0,
+          "status": "CONFIRMED",
+          "additionalCosts": "Baggage=35.00"
+        }
+      ]
+    }
+  ]
+}
