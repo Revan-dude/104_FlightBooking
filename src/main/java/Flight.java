@@ -55,7 +55,7 @@ public class Flight {
     @Override
     public String toString() {
         return String.format("%s: %s -> %s | %sT%s",
-                flightNumber, departureAirport.getCode(), arrivalAirport.getCode(),
+                flightNumber, departureAirport.code(), arrivalAirport.code(),
                 departureTime.format(DateTimeFormatter.ofPattern("yyyy-MM-dd")),
                 departureTime.format(DateTimeFormatter.ofPattern("HH:mm")));
     }

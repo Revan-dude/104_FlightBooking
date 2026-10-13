@@ -19,6 +19,7 @@ public class CustomAdditionalCostDeserializer extends ValueDeserializer<Map<Stri
         }
 
         String[] values = p.readValueAs(String.class).split(";");
+
         for(String element : values) {
             String[] splitElement = element.strip().split("=");
             additionalCosts.put(splitElement[0], Double.parseDouble(splitElement[1]));

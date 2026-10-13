@@ -78,7 +78,7 @@ public class Main {
 
         airline.getFlights().stream()
                 .filter(flight -> flight.getArrivalAirport()
-                        .getCode()
+                        .code()
                         .equalsIgnoreCase("vie"))
                 .forEach(System.out::println);
 
@@ -191,7 +191,7 @@ public class Main {
         airline.getFlights().stream()
                 .flatMap(f -> f.getBookings().stream())
                 .forEach(b -> {
-                    bookingsPerArrivalAirport.compute(b.getFlight().getArrivalAirport().getCity(), (k, v) -> v == null ? 1 : v + 1);
+                    bookingsPerArrivalAirport.compute(b.getFlight().getArrivalAirport().city(), (k, v) -> v == null ? 1 : v + 1);
                 });
 
         bookingsPerArrivalAirport.forEach((k, v) -> System.out.printf("%s: %d bookings%n", k, v));
