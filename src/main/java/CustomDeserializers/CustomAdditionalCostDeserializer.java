@@ -24,7 +24,7 @@ public class CustomAdditionalCostDeserializer extends ValueDeserializer<Map<Stri
             String[] splitElement = element.strip().split("=");
             additionalCosts.put(splitElement[0], Double.parseDouble(splitElement[1]));
         }
-
+;
         return additionalCosts;
     }
 }
